@@ -1,0 +1,11 @@
+framework module TopCard {
+  umbrella header "TopCard.h"
+
+  export *
+  module * { export * }
+}
+
+module TopCard.Swift {
+  header "TopCard-Swift.h"
+  requires objc
+}
