@@ -22,13 +22,6 @@
         "moduleName": "TopCard"
       },
       {
-        "kind": "Import",
-        "name": "CoreNFC",
-        "printedName": "CoreNFC",
-        "declKind": "Import",
-        "moduleName": "TopCard"
-      },
-      {
         "kind": "TypeDecl",
         "name": "NFCViewControllerDelegate",
         "printedName": "NFCViewControllerDelegate",
@@ -74,6 +67,214 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCProtocol",
+        "printedName": "NFCProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TopCard.NFCViewControllerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCViewControllerDelegate",
+                    "printedName": "TopCard.NFCViewControllerDelegate",
+                    "usr": "s:7TopCard25NFCViewControllerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvp",
+            "mangledName": "$s7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvp",
+            "moduleName": "TopCard",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TopCard.NFCViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewControllerDelegate",
+                        "printedName": "TopCard.NFCViewControllerDelegate",
+                        "usr": "s:7TopCard25NFCViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvg",
+                "mangledName": "$s7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvg",
+                "moduleName": "TopCard",
+                "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+                "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TopCard.NFCViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewControllerDelegate",
+                        "printedName": "TopCard.NFCViewControllerDelegate",
+                        "usr": "s:7TopCard25NFCViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvs",
+                "mangledName": "$s7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvs",
+                "moduleName": "TopCard",
+                "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+                "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvM",
+                "mangledName": "$s7TopCard11NFCProtocolP8delegateAA25NFCViewControllerDelegate_pSgvM",
+                "moduleName": "TopCard",
+                "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+                "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initNfcReadSession",
+            "printedName": "initNfcReadSession(ravKavReadRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RavKavReadRequest",
+                "printedName": "TopCard.RavKavReadRequest",
+                "usr": "s:7TopCard17RavKavReadRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TopCard11NFCProtocolP18initNfcReadSession06ravKavF7RequestyAA03RavifJ0V_tF",
+            "mangledName": "$s7TopCard11NFCProtocolP18initNfcReadSession06ravKavF7RequestyAA03RavifJ0V_tF",
+            "moduleName": "TopCard",
+            "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+            "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initNfcWriteSession",
+            "printedName": "initNfcWriteSession(ravKavWriteRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RavKavWriteRequest",
+                "printedName": "TopCard.RavKavWriteRequest",
+                "usr": "s:7TopCard18RavKavWriteRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TopCard11NFCProtocolP19initNfcWriteSession06ravKavF7RequestyAA03RavifJ0V_tF",
+            "mangledName": "$s7TopCard11NFCProtocolP19initNfcWriteSession06ravKavF7RequestyAA03RavifJ0V_tF",
+            "moduleName": "TopCard",
+            "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+            "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeSession",
+            "printedName": "closeSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TopCard11NFCProtocolP12closeSessionyyF",
+            "mangledName": "$s7TopCard11NFCProtocolP12closeSessionyyF",
+            "moduleName": "TopCard",
+            "genericSig": "<τ_0_0 where τ_0_0 : TopCard.NFCProtocol>",
+            "sugared_genericSig": "<Self where Self : TopCard.NFCProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7TopCard11NFCProtocolP",
+        "mangledName": "$s7TopCard11NFCProtocolP",
+        "moduleName": "TopCard"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "TopCard"
       },
       {
         "kind": "TypeDecl",
@@ -938,9 +1139,12 @@
         "mangledName": "$s7TopCard17NFCViewControllerC",
         "moduleName": "TopCard",
         "isOpen": true,
+        "intro_iOS": "13.0",
         "declAttributes": [
           "Custom",
           "AccessControl",
+          "Available",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
@@ -953,10 +1157,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "NFCTagReaderSessionDelegate",
-            "printedName": "NFCTagReaderSessionDelegate",
-            "usr": "s:7CoreNFC27NFCTagReaderSessionDelegateP",
-            "mangledName": "$s7CoreNFC27NFCTagReaderSessionDelegateP"
+            "name": "NFCProtocol",
+            "printedName": "NFCProtocol",
+            "usr": "s:7TopCard11NFCProtocolP",
+            "mangledName": "$s7TopCard11NFCProtocolP"
           },
           {
             "kind": "Conformance",
@@ -1006,6 +1210,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NFCTagReaderSessionDelegate",
+            "printedName": "NFCTagReaderSessionDelegate",
+            "usr": "s:7CoreNFC27NFCTagReaderSessionDelegateP",
+            "mangledName": "$s7CoreNFC27NFCTagReaderSessionDelegateP"
           }
         ]
       },
@@ -3140,120 +3351,6 @@
           },
           {
             "kind": "Var",
-            "name": "webPagePreferences",
-            "printedName": "webPagePreferences",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "WebKit.WKWebpagePreferences?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKWebpagePreferences",
-                    "printedName": "WebKit.WKWebpagePreferences",
-                    "usr": "c:objc(cs)WKWebpagePreferences"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvp",
-            "mangledName": "$s7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvp",
-            "moduleName": "TopCard",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "WebKit.WKWebpagePreferences?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WKWebpagePreferences",
-                        "printedName": "WebKit.WKWebpagePreferences",
-                        "usr": "c:objc(cs)WKWebpagePreferences"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvg",
-                "mangledName": "$s7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvg",
-                "moduleName": "TopCard",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "WebKit.WKWebpagePreferences?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WKWebpagePreferences",
-                        "printedName": "WebKit.WKWebpagePreferences",
-                        "usr": "c:objc(cs)WKWebpagePreferences"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvs",
-                "mangledName": "$s7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvs",
-                "moduleName": "TopCard",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvM",
-                "mangledName": "$s7TopCard0aB3KitC18webPagePreferencesSo09WKWebpageF0CSgvM",
-                "moduleName": "TopCard",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "vc",
             "printedName": "vc",
             "children": [
@@ -3280,7 +3377,8 @@
             "declAttributes": [
               "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3601,22 +3699,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "TopCard.NFCViewController?",
+                "name": "Optional",
+                "printedName": "TopCard.NFCProtocol?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NFCViewController",
-                    "printedName": "TopCard.NFCViewController",
-                    "usr": "c:@M@TopCard@objc(cs)NFCViewController"
+                    "name": "NFCProtocol",
+                    "printedName": "TopCard.NFCProtocol",
+                    "usr": "s:7TopCard11NFCProtocolP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvp",
-            "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvp",
+            "usr": "s:7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvp",
+            "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvp",
             "moduleName": "TopCard",
             "isOpen": true,
             "declAttributes": [
@@ -3633,22 +3731,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "TopCard.NFCViewController?",
+                    "name": "Optional",
+                    "printedName": "TopCard.NFCProtocol?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NFCViewController",
-                        "printedName": "TopCard.NFCViewController",
-                        "usr": "c:@M@TopCard@objc(cs)NFCViewController"
+                        "name": "NFCProtocol",
+                        "printedName": "TopCard.NFCProtocol",
+                        "usr": "s:7TopCard11NFCProtocolP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvg",
-                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvg",
+                "usr": "s:7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvg",
+                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvg",
                 "moduleName": "TopCard",
                 "implicit": true,
                 "isOpen": true,
@@ -3666,22 +3764,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "TopCard.NFCViewController?",
+                    "name": "Optional",
+                    "printedName": "TopCard.NFCProtocol?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NFCViewController",
-                        "printedName": "TopCard.NFCViewController",
-                        "usr": "c:@M@TopCard@objc(cs)NFCViewController"
+                        "name": "NFCProtocol",
+                        "printedName": "TopCard.NFCProtocol",
+                        "usr": "s:7TopCard11NFCProtocolP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvs",
-                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvs",
+                "usr": "s:7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvs",
+                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvs",
                 "moduleName": "TopCard",
                 "implicit": true,
                 "isOpen": true,
@@ -3699,8 +3797,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvM",
-                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA17NFCViewControllerCSgvM",
+                "usr": "s:7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvM",
+                "mangledName": "$s7TopCard0aB3KitC10nfcManagerAA11NFCProtocol_pSgvM",
                 "moduleName": "TopCard",
                 "implicit": true,
                 "isOpen": true,
@@ -9365,378 +9463,378 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/NFCViewController.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/NFCViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 784,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 5,
       "value": "\"CLA\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 5,
       "value": "\"INS\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 4,
       "value": "\"P1\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 4,
       "value": "\"P2\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 4,
       "value": "\"LC\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 4,
       "value": "\"LE\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 6,
       "value": "\"Data\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 5,
       "value": "\"CLA\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 5,
       "value": "\"INS\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 4,
       "value": "\"P1\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 4,
       "value": "\"P2\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 4,
       "value": "\"LC\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 4,
       "value": "\"LE\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavStructure.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 6,
       "value": "\"Data\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 608,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 613,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Extensions\/Data+Extensions.swift",
       "kind": "Array",
       "offset": 679,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/TopCardKit.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/TopCardKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 613,
+      "offset": 609,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/TopCardKit.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/TopCardKit.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 10,
       "value": "\"TopCard.TopCardKit\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 15,
       "value": "\"ImageBinFName\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 9,
       "value": "\"Request\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 15,
       "value": "\"ImageBinFName\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadRequest.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 9,
       "value": "\"Request\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 9,
       "value": "\"Request\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 10,
       "value": "\"Response\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 9,
       "value": "\"Request\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 10,
       "value": "\"Response\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 606,
       "length": 5,
       "value": "\"SW1\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 5,
       "value": "\"SW2\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 9,
       "value": "\"DataLen\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 690,
       "length": 6,
       "value": "\"Data\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 606,
       "length": 5,
       "value": "\"SW1\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 5,
       "value": "\"SW2\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 9,
       "value": "\"DataLen\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavWriteResponse.swift",
       "kind": "StringLiteral",
       "offset": 690,
       "length": 6,
       "value": "\"Data\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Utils.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Utils.swift",
       "kind": "BooleanLiteral",
       "offset": 155,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 10,
       "value": "\"SCNumber\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 9,
       "value": "\"SCImage\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 10,
       "value": "\"SCNumber\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Models\/RavKavReadResponse.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 9,
       "value": "\"SCImage\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 7,
       "value": "\"pango\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 8,
       "value": "\"moovit\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 7,
       "value": "\"pango\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 8,
       "value": "\"moovit\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 4,
       "value": "\"he\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 4,
       "value": "\"ru\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 4,
       "value": "\"ar\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 4,
       "value": "\"he\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 4,
       "value": "\"ru\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 4,
       "value": "\"ar\""
     },
     {
-      "filePath": "\/Users\/arthur\/Documents\/Repositories\/native-sdk\/iOS\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
+      "filePath": "\/Users\/arthur\/Documents\/Repositories\/TopCard\/TopCard\/TopCard\/Common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 46,

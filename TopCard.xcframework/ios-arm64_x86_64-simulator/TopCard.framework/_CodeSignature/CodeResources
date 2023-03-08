@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TopCard-Swift.h</key>
 		<data>
-		FiLlFKNeBJn7xHgnYjiaflES9tI=
+		OhOEoeCtLhRwY7AITSjvFYlWahw=
 		</data>
 		<key>Headers/TopCard.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vAFheEGUblCJ16ctPBtc7OQyJic=
+		tyc5mg3u+Yq5C2HVc/9ZllUwuGo=
 		</data>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cMLgZXMuXwqEQ0QFTFVRY2gIoew=
+		3IX2FNM3U/r29+j5bdYqrWGrIwU=
 		</data>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rcjACVby7wAFYh0H8uVaVaNUVtM=
+		X9zlAhpEJWe3yN1ycBYGT7MEyCk=
 		</data>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SgCdyK1GjBQ/FDpuhBWWJLBF2Wk=
+		Bpfh/2zfwU4d3NUE9kYLQ/B6TuA=
 		</data>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rcjACVby7wAFYh0H8uVaVaNUVtM=
+		X9zlAhpEJWe3yN1ycBYGT7MEyCk=
 		</data>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6R70z8WJ6YsmuOTxakLjHuo6dwI=
+		aJ6vc243nuoisww/Q1yByRTKA+k=
 		</data>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cMLgZXMuXwqEQ0QFTFVRY2gIoew=
+		3IX2FNM3U/r29+j5bdYqrWGrIwU=
 		</data>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZVLTVSqqYJQxfA2xQJLdtfAhmT8=
+		zJVXd59pJCeH6ejgsGuKMQl5Ie4=
 		</data>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wytINsM8mc7OTRwJgdtRtIribW0=
+		cX6Y7MKN6bqEWSEWMnkR9nkj9ck=
 		</data>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZVLTVSqqYJQxfA2xQJLdtfAhmT8=
+		zJVXd59pJCeH6ejgsGuKMQl5Ie4=
 		</data>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fp/S4tfcw5tQ88eoi3dHcCLENOY=
+		MiE4LiFcUxoKMIzOFLekCfJEkVw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZAPaAxz1LLjee0/vf26Quj+5FdMo5FPt1CCIA3c1Dg=
+			njQ+z7YALNIFjsDpmZBNfPs5v8GTTU4DLRWWLMA78L4=
 			</data>
 		</dict>
 		<key>Headers/TopCard.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/XDOs7bKDd6rGtsyk9qhGZNHIpU/iwb0X4NMpF9RdPQ=
+			wBE7PIIT96Kv5HCRt+qMejuNO59TL7EkkuiROmBbLhI=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2YIt+aOpj487nTctp4Pm50TVLm0upr+U9/9KZgminMw=
+			nXj7ncuEmpKOKZ3O2ptfEyj5uEwMUWAYoS7nu1vJ2Gs=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vDFvWPaDvBmYhOA2Nmz+J5bn1Nj7bovy+MGakL1Y1Uw=
+			XzIetBT836w7+XrolSrRBqnhUr82TPAR5b8+ruEZciM=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2YIt+aOpj487nTctp4Pm50TVLm0upr+U9/9KZgminMw=
+			nXj7ncuEmpKOKZ3O2ptfEyj5uEwMUWAYoS7nu1vJ2Gs=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sJAey1fxuz7TotK8RPQ93PmDeR154JWpVOA2KIu05w8=
+			HRW9+SlpSuvED5jEAPmw4PpT7M+GVoPQPqNcknvEVWE=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/XDOs7bKDd6rGtsyk9qhGZNHIpU/iwb0X4NMpF9RdPQ=
+			wBE7PIIT96Kv5HCRt+qMejuNO59TL7EkkuiROmBbLhI=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4qc1zuIf8PdGWVbMNgCl3r4Cc6UV9+RGeJ+qWC/pUxU=
+			CX7l3q3IKv7I1qOCqVzvZ1iNbwVN11LhGQ7ulRywIIg=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mweQkOxSTuJBZfaGIB2XhRWQrf9KfuRws/GHoNw4Ph4=
+			cRNHLS896VQtptkP3KJtnUfOvy1BsQXLealFWPXa9Ww=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4qc1zuIf8PdGWVbMNgCl3r4Cc6UV9+RGeJ+qWC/pUxU=
+			CX7l3q3IKv7I1qOCqVzvZ1iNbwVN11LhGQ7ulRywIIg=
 			</data>
 		</dict>
 		<key>Modules/TopCard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScaJ/RQodyMq5FUnxO/IGyis5QPkKj/MrZy3NnXawM4=
+			75fZ2xDpzcCDvpEELLb+lZL7HUEgL839kIm1CgToh0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
