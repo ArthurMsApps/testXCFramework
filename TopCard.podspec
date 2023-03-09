@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name          = 'TopCard'
-    spec.version       = '1.0.2'
+    spec.version       = '1.0.3'
     spec.license       = 'MIT'
     spec.homepage      = 'https://github.com/ArthurMsApps/testXCFramework.git'
     spec.authors       = { 'Arthur Zakharov' => 'arthur@msapps.mobi' }
